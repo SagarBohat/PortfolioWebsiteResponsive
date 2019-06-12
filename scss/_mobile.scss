@@ -74,6 +74,13 @@ min-height: 0;
         grid-template-columns:repeat(2,1fr);
 
     }
+
+    .boxes{
+        div{
+            font-size: 1.5rem;
+        }
+    }
+
     
 }
 
@@ -100,6 +107,12 @@ min-height: 0;
     .projects{
         grid-template-columns:1fr;
 
+    }
+
+    .boxes{
+        div{
+            font-size: 0.5rem;
+        }
     }
 
 }

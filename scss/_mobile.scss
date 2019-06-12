@@ -1,13 +1,21 @@
 //WIDESCREENS
 
 @include mediaExtraLarge{
+    .projects{
+        grid-template-columns:repeat(4,1fr);
+
+    }
 
 }
 
 //DESKTOPS 
 
 @include mediaLarge{
-    
+
+     .projects{
+        grid-template-columns:repeat(3,1fr);
+
+    }
 }
 
 //TABLETS
@@ -61,6 +69,11 @@ min-height: 0;
         'job3';
     grid-template-columns: 1fr;
     }
+
+    .projects{
+        grid-template-columns:repeat(2,1fr);
+
+    }
     
 }
 
@@ -84,5 +97,9 @@ min-height: 0;
     grid-template-columns: 1fr;
     }
 
+    .projects{
+        grid-template-columns:1fr;
+
+    }
 
 }

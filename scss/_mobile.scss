@@ -21,9 +21,14 @@
 //TABLETS
 
 @include mediaMedium{
+   body{
+       overflow-x: hidden;
+   }
+   
     main{
         align-items: center;
         text-align: center;
+        padding: 1rem;
 
         .lg-heading{
             line-height: 1;
@@ -89,6 +94,13 @@ min-height: 0;
 
 
 @include mediaSmall{
+    body{
+        overflow-x: hidden;
+    }
+    
+main{
+    padding: 0;
+}
 
     main#home h1{
  margin-top: 10vh;
@@ -102,6 +114,7 @@ min-height: 0;
         'job2'
         'job3';
     grid-template-columns: 1fr;
+
     }
 
     .projects{

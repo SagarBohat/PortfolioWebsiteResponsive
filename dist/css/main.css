@@ -245,9 +245,12 @@ img {
     grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden; }
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 1rem; }
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem; }
@@ -279,6 +282,10 @@ img {
     font-size: 1.5rem; } }
 
 @media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
+  main {
+    padding: 0; }
   main#home h1 {
     margin-top: 10vh; }
   .about-info {

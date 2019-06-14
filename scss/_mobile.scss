@@ -24,6 +24,10 @@
    body{
        overflow-x: hidden;
    }
+
+   body#bg-image{
+    height:100vh;}
+
    
     main{
         align-items: center;
@@ -98,6 +102,9 @@ min-height: 0;
         overflow-x: hidden;
     }
     
+    body#bg-image{
+        height:100vh;}
+
 main{
     padding: 0;
     height: 100vh;

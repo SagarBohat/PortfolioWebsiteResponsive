@@ -6,10 +6,8 @@
   "homepage": "https://SagarBohat.github.io/PortfolioWebsiteResponsive",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy":"gh-pages -d dist"
-  
+    "deploy": "gh-pages -d dist"
   },
-
   "author": "Sagar Bohat",
   "license": "MIT",
   "dependencies": {

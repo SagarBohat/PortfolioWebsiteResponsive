@@ -290,8 +290,7 @@ img {
   body#bg-image {
     height: 100vh; }
   main {
-    padding: 0;
-    height: 100vh; }
+    padding: 0; }
   main#home h1 {
     margin-top: 10vh; }
   .about-info {
